@@ -1,0 +1,95 @@
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+
+#solo-proyect {
+    width: 550px;
+    height: 729px;
+}
+
+#converter-container {
+    height: 285px;
+    background: #7464B7;
+    color: #F2EFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 15px;
+}
+
+#input-el {
+    width: 113px;
+    height: 83px;
+    background-color: inherit;
+    border-radius: 5px;
+    border: 2px solid #CCC1FF;
+    margin: 15px;
+    color: inherit;
+    font-family: inherit;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: inherit;
+}
+
+#input-el::placeholder {
+    color: #F2EFFF;
+    opacity: .5;
+}
+
+#convert-btn {
+    width: 117px;
+    margin: 15px;
+    padding: 9px 27.5px;
+    border-radius: 5px;
+    background: #F2EFFF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #26213C;
+    border: none;
+}
+
+#result-container {
+    height: 444px;
+    background: #1C2237;
+    color: #F2EFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-el {
+    width: 500px;
+    height: 108.573px;
+    border-radius: 5px;
+    background: #313D63;
+    margin: 11.72px;
+}
+
+.box-el h3 {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-el p {
+    color: #F2EFFF;
+    font-size: 14px; 
+}
